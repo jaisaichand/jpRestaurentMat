@@ -37,7 +37,8 @@
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1",
     "@angular/cli": "~8.3.23",
-    "@angular/compiler-cli": "~8.2.14"
+    "@angular/compiler-cli": "~8.2.14",
+    "typescript": "~3.5.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.23",
@@ -59,5 +60,8 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
+  },
+  "heroku-postinstall":{
+  "heroku-postbuild": "ng build --prod"
   }
 }
