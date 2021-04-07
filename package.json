@@ -35,7 +35,9 @@
     "ngx-owl-carousel-o": "^3.0.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
-    "zone.js": "~0.9.1"
+    "zone.js": "~0.9.1",
+    "@angular/cli": "~8.3.23",
+    "@angular/compiler-cli": "~8.2.14"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.23",
